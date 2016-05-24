@@ -6,6 +6,7 @@ import { RouteConfig, Router } from '@angular/router-deprecated';
 
 import { AppState } from './app.service';
 import { Home } from './home';
+import { AddEvent } from './addEvent/addevent.component';
 import { RouterActive } from './router-active';
 
 /*
@@ -46,7 +47,7 @@ import { RouterActive } from './router-active';
   `
 })
 @RouteConfig([
-  { path: '/',      name: 'Index', component: Home, useAsDefault: true },
+  { path: '/',      name: 'Index', component: AddEvent, useAsDefault: true },
   { path: '/home',  name: 'Home',  component: Home },
   // Async load a component using Webpack's require with es6-promise-loader and webpack `require`
   { path: '/about', name: 'About', loader: () => require('es6-promise!./about')('About') }
