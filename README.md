@@ -1,21 +1,21 @@
-[![taylor swift](https://img.shields.io/badge/secured%20by-taylor%20swift-brightgreen.svg)](https://twitter.com/SwiftOnSecurity)
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen) [![GitHub version](https://badge.fury.io/gh/angularclass%2Fangular2-webpack-starter.svg)](https://badge.fury.io/gh/angularclass%2Fangular2-webpack-starter) [![Dependency Status](https://david-dm.org/angularclass/angular2-webpack-starter.svg)](https://david-dm.org/angularclass/angular2-webpack-starter)
-[![Issue Stats](http://issuestats.com/github/angularclass/angular2-webpack-starter/badge/pr?style=flat)](http://issuestats.com/github/angularclass/angular2-webpack-starter)
-[![Issue Stats](http://issuestats.com/github/angularclass/angular2-webpack-starter/badge/issue?style=flat)](http://issuestats.com/github/angularclass/angular2-webpack-starter) [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/angularclass/angular-2-webpack-starter)
 
-<p align="center">
-  <a href="https://angularclass.com" target="_blank">
-    <img src="https://cloud.githubusercontent.com/assets/1016365/9863762/a84fed4a-5af7-11e5-9dde-d5da01e797e7.png" alt="Webpack and Angular 2" width="500" height="320"/>
-  </a>
-</p>
+## install
 
-# Angular2 Webpack Starter [![Join Slack](https://img.shields.io/badge/slack-join-brightgreen.svg)](https://angularclass.com/slack-join) [![Join the chat at https://gitter.im/angularclass/angular2-webpack-starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angularclass/angular2-webpack-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+* Make sure you have Node version >= 4.0 and NPM >= 3
 
+### steps to install
 
-> An Angular 2 starter kit featuring [Angular 2](https://angular.io) ([Router](https://angular.io/docs/js/latest/api/router/), [Forms](https://angular.io/docs/js/latest/api/forms/),
-[Http](https://angular.io/docs/js/latest/api/http/),
-[Services](https://gist.github.com/gdi2290/634101fec1671ee12b3e#_follow_@AngularClass_on_twitter),
-[Tests](https://angular.io/docs/js/latest/api/test/), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)), [Material](https://github.com/angular/material2), [Karma](https://karma-runner.github.io/), [Protractor](https://angular.github.io/protractor/), [Jasmine](https://github.com/jasmine/jasmine), [Istanbul](https://github.com/gotwarlost/istanbul), [TypeScript](http://www.typescriptlang.org/), [Typings](https://github.com/typings/typings), [TsLint](http://palantir.github.io/tslint/), [Codelyzer](https://github.com/mgechev/codelyzer), [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), and [Webpack](http://webpack.github.io/) by [AngularClass](https://angularclass.com).
+# add required global libraries
+npm install typings webpack-dev-server rimraf webpack -g
+
+# install the repo with npm
+npm install
+
+# start the server
+npm start
+
+go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
+
 
 > If you're looking for Angular 1.x please use [NG6-starter](https://github.com/angularclass/NG6-starter)
 
@@ -41,34 +41,6 @@ This seed repo serves as an Angular 2 starter for anyone looking to get up and r
 * Hot Module Replacement with Webpack
 * Material Design with [angular/material2](https://github.com/angular/material2)
 
-### Quick start
-**Make sure you have Node version >= 4.0 and NPM >= 3**
-> Clone/Download the repo then edit `app.ts` inside [`/src/app/app.ts`](/src/app/app.ts)
-
-```bash
-# clone our repo
-# --depth 1 removes all but one .git commit history
-git clone --depth 1 https://github.com/angularclass/angular2-webpack-starter.git
-
-# change directory to our repo
-cd angular2-webpack-starter
-
-# add required global libraries
-npm install typings webpack-dev-server rimraf webpack -g
-
-# install the repo with npm
-npm install
-
-# start the server
-npm start
-
-# use Hot Module Replacement
-npm run server:dev:hmr
-
-# if you're in China use cnpm
-# https://github.com/cnpm/cnpm
-```
-go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
 
 # Table of Contents
 * [File Structure](#file-structure)
