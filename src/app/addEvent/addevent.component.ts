@@ -7,7 +7,14 @@ import { Component } from '@angular/core';
 
 export class AddEvent {
 
-    constructor() {
+    event: Event;
 
+    constructor() {
     }
+}
+
+export class Event {
+    event_date: string;
+    tags: string[];
+    notes: string;
 }

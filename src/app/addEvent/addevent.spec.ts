@@ -7,8 +7,6 @@ import {
     it
 } from '@angular/core/testing';
 
-describe('AddEvent', () => {
-
-    it('true is true', () => expect(true).toEqual(true));
+it('true is true', () => expect(true).toEqual(true));
 
 });
